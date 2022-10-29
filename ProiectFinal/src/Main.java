@@ -26,7 +26,7 @@ public class Main extends JFrame{
     public static void main(String args[]){
 
 
-        Screen screen = new Screen();
+        Screen1 screen = new Screen1();
 
         //screen.setVisible(true);
         Main main = new Main();
