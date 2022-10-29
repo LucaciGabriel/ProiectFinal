@@ -55,4 +55,28 @@ public class Utilitar {
           return min;
       }
 
+      public static int pretMaxMasini(ArrayList<Masina> arr){
+         int i=0;
+         int max=0;
+         for(i=0;i<arr.size() && arr.get(i) != null;i++){
+             if(arr.get(i).getPret()>max)max=arr.get(i).getPret();
+         }
+         return max;
+      }
+      public static int pretMaxMotociclete(ArrayList<Motocicleta> arr){
+          int i=0;
+          int max=0;
+          for(i=0;i<arr.size() && arr.get(i) != null;i++){
+              if(arr.get(i).getPret()>max)max=arr.get(i).getPret();
+          }
+          return max;
+      }
+      public static int pretMaxCamioane(ArrayList<Camion> arr){
+          int i=0;
+          int max=0;
+          for(i=0;i<arr.size() && arr.get(i) != null;i++){
+              if(arr.get(i).getPret()>max)max=arr.get(i).getPret();
+          }
+          return max;
+      }
 }
