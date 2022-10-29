@@ -2,32 +2,32 @@ package AutoVehiculPackage;
 
 public class Motocicleta extends AutoVehicul{
     
-    private String vitezamaxima;
+    private int vitezamaxima;
 
     public Motocicleta()
     {
         super.setModel("");
-        super.setModel("");
-        super.setModel("");
-        super.setModel("");
-        this.vitezamaxima="";
+        super.setProprietar("");
+        super.setPret(0);
+        super.setAn(0);
+        this.vitezamaxima=0;
     }
 
-    public Motocicleta(String model,String proprietar,String pret,String an,String vitezamaxima)
+    public Motocicleta(String model,String proprietar,int pret,int an,int vitezamaxima)
     {
         super.setModel(model);
-        super.setModel(proprietar);
-        super.setModel(pret);
-        super.setModel(an);
+        super.setProprietar(proprietar);
+        super.setPret(pret);
+        super.setAn(an);
         this.vitezamaxima=vitezamaxima;
     }
 
-    public String getvitezamaxima()
+    public int getvitezamaxima()
     {
         return vitezamaxima;
     }
 
-    public void setvitezamaxima(String vitezamaxima)
+    public void setvitezamaxima(int vitezamaxima)
     {
         this.vitezamaxima=vitezamaxima;
     }

@@ -4,19 +4,19 @@ package AutoVehiculPackage;
     public class AutoVehicul{
         private  String model;
         private String proprietar;
-        private String pret;
-        private String an;
+        private int pret;
+        private int an;
         private static final String culoare = "Gri";
 
         public AutoVehicul()
         {
             this.model="";
             this.proprietar="";
-            this.pret="";
-            this.an="";
+            this.pret=0;
+            this.an=0;
         }
 
-        public AutoVehicul(String model,String proprietar,String pret,String an){
+        public AutoVehicul(String model,String proprietar,int pret,int an){
             this.model=model;
             this.proprietar=proprietar;
             this.pret=pret;
@@ -41,19 +41,19 @@ package AutoVehiculPackage;
         }
 
 
-        public String getPret() {
+        public int getPret() {
             return pret;
         }
 
-        public void setPret(String pret) {
+        public void setPret(int pret) {
             this.pret = pret;
         }
 
-        public String getAn() {
+        public int getAn() {
             return an;
         }
 
-        public void setAn(String an) {
+        public void setAn(int an) {
             this.an = an;
         }
 

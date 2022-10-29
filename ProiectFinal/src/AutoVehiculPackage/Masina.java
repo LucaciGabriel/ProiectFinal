@@ -2,35 +2,36 @@ package AutoVehiculPackage;
 
 public class Masina extends AutoVehicul{
 
-    private String numarlocuri;
+    private int numarlocuri;
 
     public Masina()
     {
         super.setModel("");
-        super.setModel("");
-        super.setModel("");
-        super.setModel("");
-        this.numarlocuri="";
+        super.setProprietar("");
+        super.setPret(0);
+        super.setAn(0);
+        this.numarlocuri=0;
     }
 
-    public Masina(String model,String proprietar,String pret,String an,String numarlocuri)
+    public Masina(String model,String proprietar,int pret,int an,int numarlocuri)
     {
         super.setModel(model);
-        super.setModel(proprietar);
-        super.setModel(pret);
-        super.setModel(an);
+        super.setProprietar(proprietar);
+        super.setPret(pret);
+        super.setAn(an);
         this.numarlocuri=numarlocuri;
     }
 
-    public String getNumarlocuri()
+    public int getNumarlocuri()
     {
         return numarlocuri;
     }
 
-    public void setNumarLocuri(String numarlocuri)
+    public void setNumarLocuri(int numarlocuri)
     {
         this.numarlocuri=numarlocuri;
     }
+
     public String toString()
     {
         return super.getModel()+" "+ super.getProprietar()+ " "+super.getPret()+" "+super.getAn()+" "+this.numarlocuri;

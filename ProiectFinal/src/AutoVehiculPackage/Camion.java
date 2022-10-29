@@ -2,32 +2,32 @@ package AutoVehiculPackage;
 
 public class Camion extends AutoVehicul{
 
-    private String capacitate;
+    private int capacitate;
 
     public Camion()
     {
         super.setModel("");
-        super.setModel("");
-        super.setModel("");
-        super.setModel("");
-        this.capacitate="";
+        super.setProprietar("");
+        super.setPret(0);
+        super.setAn(0);
+        this.capacitate=0;
     }
 
-    public Camion(String model,String proprietar,String pret,String an,String capacitate)
+    public Camion(String model,String proprietar,int pret,int an,int capacitate)
     {
         super.setModel(model);
-        super.setModel(proprietar);
-        super.setModel(pret);
-        super.setModel(an);
+        super.setProprietar(proprietar);
+        super.setPret(pret);
+        super.setAn(an);
         this.capacitate=capacitate;
     }
 
-    public String getcapacitate()
+    public int getcapacitate()
     {
         return capacitate;
     }
 
-    public void setcapacitate(String capacitate)
+    public void setcapacitate(int capacitate)
     {
         this.capacitate=capacitate;
     }
