@@ -22,10 +22,10 @@ public class Screen extends JFrame{
     private ArrayList<AutoVehicul> arr;
 
     Screen(){
-            this.setContentPane(this.panelMain);
-            this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setContentPane(this.panelMain);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-            arr = new ArrayList<AutoVehicul>();
+        arr = new ArrayList<AutoVehicul>();
 
         salveazaNouButton.addActionListener(new ActionListener() {
             @Override
@@ -72,13 +72,15 @@ public class Screen extends JFrame{
         arr.add(m);
     }
 
-        public static void main(String args[]){
+    public static void main(String args[]){
 
 
         Screen screen = new Screen();
 
-        screen.setVisible(true);
+        //screen.setVisible(true);
+        Main main = new Main();
+        main.setVisible(true);
 
 
-        }
+    }
 }
