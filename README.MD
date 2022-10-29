@@ -10,7 +10,7 @@ In primul rand, aplicatia retine pentru fiecare tip de autovehicul niste date, m
 In al doilea rand, cand sunt deja introduse datele pentru niste autovehicule, va afisa aceste date in 3 liste.
 (poza cu lista de motociclete cand are ceva date afisate)
 
-In al treilea rand, poate sa afiseze media si minimul dintre preturile unui anumit tip de autovehicul.
+In al treilea rand, poate sa afiseze media, minimul si maximul dintre preturile unui anumit tip de autovehicul.
 (poza cu butoanele pentru medie preturi si pret minim camioane si casetele unde afiseaza datele astea)
 
 DIAGRAMA
