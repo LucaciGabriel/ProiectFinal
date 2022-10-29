@@ -1,4 +1,6 @@
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class Main extends JFrame{
    private JPanel panel;
@@ -20,13 +22,37 @@ public class Main extends JFrame{
         this.setContentPane(panel1);
        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
        this.setSize(800,800);
-       //this.setVisible(true);
+
+       adaugaMasinaButton.addActionListener(new ActionListener() {
+           @Override
+           public void actionPerformed(ActionEvent e) {
+               Screen screen = new Screen();
+               screen.setSize(900,900);
+               screen.setVisible(true);
+           }
+       });
+
+       adaugaCamionButton.addActionListener(new ActionListener() {
+           @Override
+           public void actionPerformed(ActionEvent e) {
+
+           }
+       });
+
+       adaugaMotocicletaButton.addActionListener(new ActionListener() {
+           @Override
+           public void actionPerformed(ActionEvent e) {
+
+           }
+       });
+
+
     }
 
     public static void main(String args[]){
 
 
-        Screen1 screen = new Screen1();
+        //Screen screen = new Screen();
 
         //screen.setVisible(true);
         Main main = new Main();
