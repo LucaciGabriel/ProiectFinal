@@ -1,19 +1,19 @@
 
-// Test EDITARE FISIER
 
-    public class Masina{
+
+    public class AutoVehicul{
         private  String model;
         private String proprietar;
         private String pret;
         private String an;
         private static final String culoare = "Gri";
 
-        public Masina(String model){
+        public AutoVehicul(String model){
             this.model=model;
         }
 
 
-        public Masina(String model,String proprietar,String pret,String an){
+        public AutoVehicul(String model,String proprietar,String pret,String an){
             this.model=model;
             this.proprietar=proprietar;
             this.pret=pret;
