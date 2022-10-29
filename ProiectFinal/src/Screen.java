@@ -18,13 +18,13 @@ public class Screen extends JFrame{
     private JTextField textField4;
     private JPanel panelMain;
     private JLabel labelModel;
-    private ArrayList<Masina> arr;
+    private ArrayList<AutoVehicul> arr;
 
     Screen(){
             this.setContentPane(this.panelMain);
             this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-            arr = new ArrayList<Masina>();
+            arr = new ArrayList<AutoVehicul>();
 
         salveazaNouButton.addActionListener(new ActionListener() {
             @Override
@@ -34,7 +34,7 @@ public class Screen extends JFrame{
                 String an = textField3.getText();
                 String proprietar = textField4.getText();
                 if(!model.isEmpty() && !pret.isEmpty() && !an.isEmpty() && !proprietar.isEmpty()){
-                    Masina m = new Masina(model,proprietar,pret,an);
+                    AutoVehicul m = new AutoVehicul(model,proprietar,pret,an);
                     arr.add(m);
                     refreshList();
                     labelModel.setText("adaugare reusita");
@@ -65,7 +65,7 @@ public class Screen extends JFrame{
         listaMasini.setListData(arr.toArray());
     }
 
-    public void adaugaMasina(Masina m){
+    public void adaugaAutoVehicul(AutoVehicul m){
         arr.add(m);
     }
 
