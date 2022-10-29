@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import AutoVehiculPackage.*;
 
-public class Screen extends JFrame{
+public class Screen1 extends JFrame{
     private JPanel panelTop;
     private JPanel panelLeft;
     private JPanel panelRigth;
@@ -21,7 +21,7 @@ public class Screen extends JFrame{
     private JLabel labelModel;
     private ArrayList<AutoVehicul> arr;
 
-    Screen(){
+    Screen1(){
         this.setContentPane(this.panelMain);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
