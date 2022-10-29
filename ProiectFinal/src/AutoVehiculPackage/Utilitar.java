@@ -3,13 +3,56 @@ package AutoVehiculPackage;
 import java.util.ArrayList;
 
 public class Utilitar {
-      public static double mediePreturi(ArrayList<AutoVehicul> arr){
+      public static double mediePreturiMasini(ArrayList<Masina> arr){
           int i=0;
           double sum=0;
           for(i=0;i<arr.size() && arr.get(i) != null;i++){
                sum += arr.get(i).getPret();
           }
           return sum/arr.size();
+      }
+      public static double mediePreturiMotociclete(ArrayList<Motocicleta> arr){
+          int i=0;
+          double sum=0;
+          for(i=0;i<arr.size() && arr.get(i) != null;i++){
+              sum += arr.get(i).getPret();
+          }
+          return sum/arr.size();
+      }
+      public static double mediePreturiCamionane(ArrayList<Camion> arr){
+          int i=0;
+          double sum=0;
+          for(i=0;i<arr.size() && arr.get(i) != null;i++){
+              sum += arr.get(i).getPret();
+          }
+          return sum/arr.size();
+      }
+
+      public static int pretMinMasini(ArrayList<Masina> arr){
+          int i=0;
+          int min=9999;
+          for(i=0;i<arr.size() && arr.get(i) != null;i++){
+              if(arr.get(i).getPret()<min)min=arr.get(i).getPret();
+          }
+          return min;
+      }
+
+      public static int pretMinMotociclete(ArrayList<Motocicleta> arr){
+          int i=0;
+          int min=9999;
+          for(i=0;i<arr.size() && arr.get(i) != null;i++){
+              if(arr.get(i).getPret()<min)min=arr.get(i).getPret();
+          }
+          return min;
+      }
+
+      public static int pretMinCamioane(ArrayList<Camion> arr){
+          int i=0;
+          int min=9999;
+          for(i=0;i<arr.size() && arr.get(i) != null;i++){
+              if(arr.get(i).getPret()<min)min=arr.get(i).getPret();
+          }
+          return min;
       }
 
 }
