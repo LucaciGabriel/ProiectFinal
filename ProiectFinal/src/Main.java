@@ -6,21 +6,33 @@ public class Main extends JFrame{
     private JList list1;
     private JList list2;
     private JList list3;
-    private JButton button1;
-    private JButton button2;
-    private JButton button3;
-    private JButton button4;
-    private JButton button5;
-    private JButton button6;
-    private JButton button7;
-    private JButton button8;
-    private JButton button9;
+    private JButton adaugaMasinaButton;
+    private JButton pretMinimButton;
+    private JButton mediePretButton;
+    private JButton adaugaMotocicletaButton;
+    private JButton pretMaximButton;
+    private JButton mediePretButton1;
+    private JButton adaugaCamionButton;
+    private JButton pretMinimButton1;
+    private JButton mediePretButton2;
 
     public Main(){
         this.setContentPane(panel1);
        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
        this.setSize(800,800);
        //this.setVisible(true);
+    }
+
+    public static void main(String args[]){
+
+
+        Screen screen = new Screen();
+
+        //screen.setVisible(true);
+        Main main = new Main();
+        main.setVisible(true);
+
+
     }
 
 }
