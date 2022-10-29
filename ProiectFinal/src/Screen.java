@@ -4,6 +4,7 @@ import javax.swing.event.ListSelectionListener;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
+import AutoVehiculPackage.AutoVehicul;
 
 public class Screen extends JFrame{
     private JPanel panelTop;
@@ -34,7 +35,9 @@ public class Screen extends JFrame{
                 String an = textField3.getText();
                 String proprietar = textField4.getText();
                 if(!model.isEmpty() && !pret.isEmpty() && !an.isEmpty() && !proprietar.isEmpty()){
-                    AutoVehicul m = new AutoVehicul(model,proprietar,pret,an);
+                    int tempPret = Integer.parseInt(textField2.getText());
+                    int tempAn = Integer.parseInt(textField3.getText());
+                    AutoVehicul m = new AutoVehicul(model,proprietar,tempPret,tempAn);
                     arr.add(m);
                     refreshList();
                     labelModel.setText("adaugare reusita");
@@ -58,7 +61,7 @@ public class Screen extends JFrame{
 
             }
         });
-
+        Utilitar.mediePreturi(arr);
     }
     private void refreshList(){
 
@@ -70,7 +73,10 @@ public class Screen extends JFrame{
     }
 
         public static void main(String args[]){
+
+
         Screen screen = new Screen();
+
         screen.setVisible(true);
 
 
