@@ -72,15 +72,5 @@ public class Screen extends JFrame{
         arr.add(m);
     }
 
-    public static void main(String args[]){
 
-
-        Screen screen = new Screen();
-
-        //screen.setVisible(true);
-        Main main = new Main();
-        main.setVisible(true);
-
-
-    }
 }
