@@ -1,7 +1,7 @@
 
 package AutoVehiculPackage;
 
-    public class AutoVehicul{
+    public class AutoVehicul implements IAutovehicul{
         private  String model;
         private String proprietar;
         private int pret;

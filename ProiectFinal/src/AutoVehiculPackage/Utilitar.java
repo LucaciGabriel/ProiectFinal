@@ -30,7 +30,7 @@ public class Utilitar {
 
       public static int pretMinMasini(ArrayList<Masina> arr){
           int i=0;
-          int min=9999;
+          int min=999999;
           for(i=0;i<arr.size() && arr.get(i) != null;i++){
               if(arr.get(i).getPret()<min)min=arr.get(i).getPret();
           }
@@ -39,7 +39,7 @@ public class Utilitar {
 
       public static int pretMinMotociclete(ArrayList<Motocicleta> arr){
           int i=0;
-          int min=9999;
+          int min=999999;
           for(i=0;i<arr.size() && arr.get(i) != null;i++){
               if(arr.get(i).getPret()<min)min=arr.get(i).getPret();
           }
@@ -48,7 +48,7 @@ public class Utilitar {
 
       public static int pretMinCamioane(ArrayList<Camion> arr){
           int i=0;
-          int min=9999;
+          int min=999999;
           for(i=0;i<arr.size() && arr.get(i) != null;i++){
               if(arr.get(i).getPret()<min)min=arr.get(i).getPret();
           }
