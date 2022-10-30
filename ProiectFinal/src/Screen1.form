@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Screen2">
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Screen1">
   <grid id="27dc6" binding="ScreenPanel" layout-manager="GridLayoutManager" row-count="11" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
@@ -76,15 +76,15 @@
           <text value="0"/>
         </properties>
       </component>
-      <component id="48387" class="javax.swing.JLabel" binding="lblvitezamaxima">
+      <component id="48387" class="javax.swing.JLabel" binding="lblnumarlocuri">
         <constraints>
           <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Viteza Maxima"/>
+          <text value="Numar de locuri"/>
         </properties>
       </component>
-      <component id="91b9c" class="javax.swing.JTextField" binding="textFielVitezMaxima">
+      <component id="91b9c" class="javax.swing.JTextField" binding="textFieldNumarLocuri">
         <constraints>
           <grid row="9" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
