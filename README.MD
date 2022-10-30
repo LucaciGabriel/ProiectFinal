@@ -20,4 +20,5 @@ In al treilea rand, poate sa afiseze media, minimul si maximul dintre preturile 
 ![image](https://user-images.githubusercontent.com/114673169/198886129-97ac4b5f-8585-4d39-af96-f2b285ad9e55.png)
 
 DIAGRAMA
+
 (poza cu diagrama uml)
