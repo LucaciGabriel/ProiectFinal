@@ -4,7 +4,7 @@ Aceasta aplicatie se ocupa cu gestionarea datelor pentru diferite tipuri de auto
 
 FUNCTIONALITATI
 
-In primul rand, aplicatia retine pentru fiecare tip de autovehicul niste date, modelul, proprietarul, pretul si anul acelui autovehicul, iar depinzand de tipul mai specific, pentru masini se retine si numarul de locuri, pentru motociclete se retine viteza maxima si pentru camioane se retine capacitatea lor maxima.
+In primul rand, aplicatia retine pentru fiecare tip de autovehicul niste date: modelul, proprietarul, pretul si anul acelui autovehicul, iar depinzand de tipul mai specific, pentru masini se retine si numarul de locuri, pentru motociclete se retine viteza maxima si pentru camioane se retine capacitatea lor maxima.
 (poza cu fereastra de citire date pentru masini)
 
 ![image](https://user-images.githubusercontent.com/114673169/198885842-c2468bd5-4c48-4f66-88bb-9f5af65963d5.png)
