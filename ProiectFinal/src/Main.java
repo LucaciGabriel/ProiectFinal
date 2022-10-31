@@ -152,7 +152,7 @@ public class Main {
                         "", JOptionPane.YES_NO_OPTION);
 
                 if (resp == JOptionPane.YES_OPTION) {
-                    frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+                    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 } else {
                     frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
             }
