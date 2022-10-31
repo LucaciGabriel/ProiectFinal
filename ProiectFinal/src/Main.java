@@ -142,7 +142,7 @@ public class Main {
         });
     }
     public static void main(String[] args) {
-        JFrame frame=new JFrame("Game App");
+        JFrame frame=new JFrame("Aplicatie Autovehicule");
         frame.setContentPane(new Main().MainWindowPanel);
         frame.pack();
         frame.addWindowListener(new WindowAdapter() {
